@@ -1,0 +1,11 @@
+.main-header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 25px 15px;
+    font-weight:700;
+    font-size:28px;
+    background-color:rgba(128, 151, 252,0.4);
+}
+

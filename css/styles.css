@@ -1,8 +1,11 @@
 /* components*/
 @import "components/status-bar.css";
+@import "components/header.css";
+@import "components/navbar.css";
 
 /*screen styles*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /*resets */
 @import "reset.css";
@@ -16,3 +19,7 @@ body{
 }
 
 
+/* basic icon settings */
+.material-symbols-outlined{
+    margin: 0px 5px;
+}
