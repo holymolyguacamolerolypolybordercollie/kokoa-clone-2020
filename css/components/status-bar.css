@@ -1,0 +1,15 @@
+.status-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:10px 5px;
+}
+
+.status-bar__column:first-child span{
+    margin-right:8px;
+}
+
+.status-bar__column{
+    display:flex;
+    align-items:center;
+}

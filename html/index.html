@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Welcome to KoKaine Talk</title>
+</head>
+<body>
+    <div class = "status-bar">
+        <div class = "status-bar__column">
+            <span>No service</span>
+            <span class="material-symbols-outlined"> wifi </span>
+        </div>
+        <div class = "status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class = "status-bar__column">
+            <span>110%</span>
+            <span class="material-symbols-outlined">battery_full_alt</span>
+            <span class="material-symbols-outlined">electric_bolt</span>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KoKaine Talk</h1>
+        <p class="welcome-header__text">If you have a KoKaine Account,<br>log in with your email or phone Number.</p>
+    </header>
+    <form class="login-form" action="friends.html" method="get">
+        <input name="username" class="login-form__input" type="text" placeholder="Email or Phone number">
+        <input name="password" class="login-form__input" type="password" placeholder="Password">
+        <input class="login-form__input" type="submit" value="Log in" >
+    </form>
+    <div class="alter-links">
+        <a href="#">Sign Up</a>
+        <a href="#">Forgot your account?</a>
+    </div>
+</body>
+</html>
