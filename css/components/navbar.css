@@ -1,14 +1,37 @@
+.navbar{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+}
 
 .navbar_list{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
-    background-color:rgba(128, 151, 252,0.4);
+    background-color:rgba(128, 151, 252, 0.082);
     padding: 20px 100px;
-
+  
 }
+
 
 .nav_link{
     color:black;
+    position:relative;
+}
+
+.chat-noti{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:30px;
+    width:30px;
+    background-color:tomato;
+    border-radius:50%;
+    position:absolute;
+    bottom:15px;
+    left:20px;
+    font-size: 12px;
+
 }

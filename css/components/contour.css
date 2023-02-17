@@ -1,0 +1,10 @@
+.contour{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    color:rgba(0,0,0,0.7);
+    padding:10px 0px;
+    border-top : 1px solid rgba(0,0,0,0.6);
+    margin:20px 0px;
+}

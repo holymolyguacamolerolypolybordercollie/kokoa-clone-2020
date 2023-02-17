@@ -2,6 +2,8 @@
 @import "components/status-bar.css";
 @import "components/header.css";
 @import "components/navbar.css";
+@import "components/user-component.css";
+@import "components/contour.css";
 
 /*screen styles*/
 @import "screens/login.css";
@@ -22,4 +24,9 @@ body{
 /* basic icon settings */
 .material-symbols-outlined{
     margin: 0px 5px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 200,
+    'opsz' 48
 }
