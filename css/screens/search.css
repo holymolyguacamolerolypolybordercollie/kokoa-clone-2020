@@ -1,0 +1,36 @@
+.search-icons{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 20px 45px;
+}
+
+
+
+.search-icons__icon{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.search-icons__icon span:first-child{
+    display:block;
+    margin-bottom:15px;
+}
+
+.recom-friends{
+    display:flex;
+    justify-content:center;
+    margin:110px 0px;
+    text-align:center;
+    font-size:20px;
+    color:rgba(0,0,0,0.6);
+}
+
+
+.contour__openchat-el{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}

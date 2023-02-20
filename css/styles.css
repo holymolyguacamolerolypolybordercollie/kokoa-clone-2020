@@ -4,11 +4,14 @@
 @import "components/navbar.css";
 @import "components/user-component.css";
 @import "components/contour.css";
+@import "components/openchats.css";
 
 /*screen styles*/
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
+@import "screens/search.css";
+
 
 /*resets */
 @import "reset.css";
@@ -24,7 +27,7 @@ body{
 
 /* basic icon settings */
 .material-symbols-outlined{
-    margin: 0px 5px;
+    margin: 0px 2px;
     font-variation-settings:
     'FILL' 0,
     'wght' 500,
@@ -35,4 +38,8 @@ body{
 /*header settings -- due to the fixed statbar */
 header{
     margin-top:45px;   
+}
+
+main{
+    padding:30px 25px;
 }
