@@ -1,0 +1,36 @@
+.more-icons{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:15px 30px;
+}
+
+.more-icons__row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 25px 5px;
+    
+}
+
+.more-icon{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:25%;
+}
+
+.suggestions{
+    padding:15px 30px;
+}
+.more-icons__row:nth-child(2){
+    display:flex;
+    justify-content:flex-start;
+
+}
+.contour + .more-icons__row{
+    display:flex;
+    justify-content:flex-start;
+    margin: 25px 5px;
+}

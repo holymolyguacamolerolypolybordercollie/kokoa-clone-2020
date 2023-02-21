@@ -41,7 +41,6 @@
 }
 
 .user-component__msg{
-    margin-top :6.5px;
     font-size:16px;
     color:rgba(0,0,0,0.7);
 }
@@ -89,4 +88,19 @@
     color:white;
     font-size:15px;
     border-radius:50%
+}
+
+.user-component__el{
+    margin-top:6.5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.alert-noti{
+    display:flex;
+    margin-top:10px;
+    margin: 0px 20px;
+    color:red;
+    text-align:center;
 }

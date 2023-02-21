@@ -5,6 +5,7 @@
 @import "components/user-component.css";
 @import "components/contour.css";
 @import "components/openchats.css";
+@import "components/icons.css";
 
 /*screen styles*/
 @import "screens/login.css";
@@ -36,9 +37,6 @@ body{
 }
 
 /*header settings -- due to the fixed statbar */
-header{
-    margin-top:45px;   
-}
 
 main{
     padding:30px 25px;
